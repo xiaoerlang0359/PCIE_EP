@@ -1,0 +1,120 @@
+`pragma protect begin_protected
+`pragma protect encrypt_agent = "Model Technology", encrypt_agent_info = "6.4e"
+`pragma protect author = "Xilinx" , author_info = "iserdese2.001"
+`pragma protect data_method = "aes256-cbc"
+`pragma protect key_keyowner = "MTI" , key_keyname = "MGC-DVT-MTI" , key_method = "rsa"
+`pragma protect key_block encoding = (enctype = "base64")
+qvl8dlclA5wkbZZiq9cjKmnGrfEogR4CKMVmJwrTczeADKGKilECkL0a8mWpnpiF
+NJH0IhzbQfk+LmFAInBap+oS0Zbi1VvrPCkSz4SXElT0QskL/0eLXsntuDK7wi1X
+RwpZQTkETUbuZ78h/ZCcFigszttnjs/Kpr+vOpRM7bI=
+`pragma protect data_block encoding = ( enctype = "base64", bytes = 168       )
+fst0f2c89Zkc2A83TffWIezEcTfIMfsRn2Y9CAUgLnRsS9vht5+uREWa3/UmWrCO
+HTwtWh+8ZkoiEwxL21CTx8sSi6HiD3C1cHfmVn6FXKJq8aKSU2eySxnpq6Zr1sHO
+kHvkclWG9dbmX9SNexjnuqPFeawPCcJyh1o40uWW3ZS2h1clMHUJVFgvQD5WQUvB
+/2PSXjlZLWAP8xWONMrOM8f9AoXhFX+ZAUN/J9C17r4=
+`pragma protect end_protected
+module ISERDESE2_WRAP #(  // Verilog-2001
+  parameter DATA_RATE = "DDR",
+  parameter integer DATA_WIDTH = 4,
+  parameter DYN_CLKDIV_INV_EN = "FALSE",
+  parameter DYN_CLK_INV_EN = "FALSE",
+  parameter INIT_Q1 = "0",
+  parameter INIT_Q2 = "0",
+  parameter INIT_Q3 = "0",
+  parameter INIT_Q4 = "0",
+  parameter INTERFACE_TYPE = "MEMORY",
+  parameter IOBDELAY = "NONE",
+  parameter integer NUM_CE = 2,
+  parameter OFB_USED = "FALSE",
+  parameter SERDES_MODE = "MASTER",
+  parameter SRVAL_Q1 = "0",
+  parameter SRVAL_Q2 = "0",
+  parameter SRVAL_Q3 = "0",
+  parameter SRVAL_Q4 = "0"
+  ) (
+  output O,
+  output Q1,
+  output Q2,
+  output Q3,
+  output Q4,
+  output Q5,
+  output Q6,
+  output Q7,
+  output Q8,
+  output SHIFTOUT1,
+  output SHIFTOUT2,
+  input BITSLIP,
+  input CE1,
+  input CE2,
+  input CLK,
+  input CLKB,
+  input CLKDIV,
+  input CLKDIVP,
+  input D,
+  input DDLY,
+  input DYNCLKDIVSEL,
+  input DYNCLKSEL,
+  input OCLK,
+  input OCLKB,
+  input OFB,
+  input RST,
+  input SHIFTIN1,
+  input SHIFTIN2  
+);
+
+`pragma protect begin_protected
+`pragma protect encrypt_agent = "Model Technology", encrypt_agent_info = "6.4e"
+`pragma protect author = "Xilinx" , author_info = "iserdese2.001"
+`pragma protect data_method = "aes256-cbc"
+`pragma protect key_keyowner = "MTI" , key_keyname = "MGC-DVT-MTI" , key_method = "rsa"
+`pragma protect key_block encoding = (enctype = "base64")
+kC8nj8Wm/28qw3ceGFdlsT1O/1hyfYvosKEoEGYtaG/v18deV8sHl0InQ76aMtVZ
+YynPNSZFbduDTXlXNrwSZigVxcMZxJvl+ni/GX7X8yuA6xddjqpjJc2CFpvc+0Uy
+MVsST+oGZckEJfYLOyeOODxOUKmXOSaaMFYtw77f77o=
+`pragma protect data_block encoding = ( enctype = "base64", bytes = 2319      )
+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
+`pragma protect end_protected

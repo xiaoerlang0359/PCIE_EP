@@ -1,0 +1,23 @@
+`pragma protect begin_protected
+`pragma protect encrypt_agent = "Model Technology", encrypt_agent_info = "6.4e"
+`pragma protect author = "Xilinx" , author_info = "ppc405_adv.011"
+`pragma protect data_method = "aes256-cbc"
+`pragma protect key_keyowner = "MTI" , key_keyname = "MGC-DVT-MTI" , key_method = "rsa"
+`pragma protect key_block encoding = (enctype = "base64")
+ohl3Yg2mlFfjyAl/WCZR0/LYoafGexLD2/Vadx54ih6QL5LBoi4VtN/ufYqeN79Z
+/vGDydkw2QkL76bAbD7OOCgtg1+5TQ4z0dDF+HWErh6DFWPu8TUxdodBB9ew0aBy
+y+muzkPFyTYWAUgaUPe8USSZgwp+Zd8RxAMnvRtGRIM=
+`pragma protect data_block encoding = ( enctype = "base64", bytes = 568       )
+GMjk3NppVOpxyjCJMSDIIVWXymvrdDSSM+yIElpk0xzPnE8z3D7SFcuxHP6Ut88j
+frS6GegqptUD4VGAZhtytiJLqvOMW2NnonH5Pqi+QlLq+5MoOBqL6+SLbwxSlsAI
+Gn0QzPxmcM0b9TBMfuwf7opIJIv6f3Ckjv4mjiSPab8gojGGupDEZaJKyoRF4G23
+oo01egwVA1KAXTMDCqS8BlLrAv7xeBaXskZZzkvPCOXEhs7W+aK8cnfYvs93O7QE
+DjG/jGTz7PZRNMZfoRdLAAMX+G3t2VGOQug7+EFxfgYI//I9a/Qxrq4b4ZFC/JUD
+mLGJBp0XPkzZwz5ZVz9eP9YQws9Hi0g4hcBVrdrsJoIGqLpX7tB5bBWfsUJUTdCe
+GDBpldKwBGFRCum1/1DCuOgQkiWWAwMxUjKpjPRRP3IJ8FN9Xk25Xp/H9xa9toQQ
+z/qHOv0RG7tet2BhXvYwpKfOb9RCqfz4VL0+lI37GZ/uMjJPT4CkYScD/+Ftvye6
+zMmQq8OBhlfLZPJS5hrEjoU+M8Krg2iNk4BF2lkLkwRZc4+3gilzlU1Q5rAgmYLO
+DOioEnT3v6Orfb+kiXR9UPUIi2aM6Zbo/kQfYv6nZ1pBo6t52AIe1kByUecbNvCL
+zqzhCg0xYWYu2ylZrnnkSVVNVRqr1YSa8Rn4K7tdXsXRtdGSPxNSwETF/1kVL9hd
+LOmEycTKVBmk8CSHee9eN8nZuF0099NSr9nNMn7gp3h6qIWHnz/AvVrB87pN6q1F
+`pragma protect end_protected

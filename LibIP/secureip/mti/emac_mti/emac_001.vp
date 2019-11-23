@@ -1,0 +1,15 @@
+`pragma protect begin_protected
+`pragma protect encrypt_agent = "Model Technology", encrypt_agent_info = "6.4e"
+`pragma protect author = "Xilinx" , author_info = "emac.024"
+`pragma protect data_method = "aes256-cbc"
+`pragma protect key_keyowner = "MTI" , key_keyname = "MGC-DVT-MTI" , key_method = "rsa"
+`pragma protect key_block encoding = (enctype = "base64")
+LP9gG396bwHcCRnQH5iqSVDACY9qKf9wr+TfwRFCkDnqVQ3f7DxRLqy2FPFWbzFz
+1fsNpBEz9lTStZz4l45sB/QnhLVx4nHLcYq8vz4t2WagvqaGT95uD5DA8JF4c1Xi
+ZGNAgbSM5VC68CJCcBvTQZLvRT484tBDwjnomNm7AG4=
+`pragma protect data_block encoding = ( enctype = "base64", bytes = 170       )
+qKsg4Wu9u0smM91lq8fhGFBhnUOBgUUFdBWgUZ0njVXrsRs/mUf735zWHKlLgSvF
+clD6pHY7Vwe5/UFaJlG0KzzS6kX4cStuIeRiIn7HV8Bov70GqK+0ngH2DQVup3VL
+m85xpNmXE35m77llH9V/sfZoeYZd92i4/9OcP7zGMmENuDSRrp4SKiDD6pxfkf04
+yI8fQ9dRERIqCcAnv7fJomcVACop5hxWqYwA7ClOyVA=
+`pragma protect end_protected

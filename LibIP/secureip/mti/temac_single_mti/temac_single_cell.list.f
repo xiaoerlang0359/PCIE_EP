@@ -1,0 +1,10 @@
+$XILINX/secureip/mti/temac_single_mti/temac_single_001.vp
+$XILINX/secureip/mti/temac_single_mti/temac_single_002.vp
+$XILINX/secureip/mti/temac_single_mti/temac_single_003.vp
+$XILINX/secureip/mti/temac_single_mti/temac_single_004.vp
+$XILINX/secureip/mti/temac_single_mti/temac_single_005.vp
+$XILINX/secureip/mti/temac_single_mti/temac_single_006.vp
+$XILINX/secureip/mti/temac_single_mti/temac_single_007.vp
+$XILINX/secureip/mti/temac_single_mti/temac_single_008.vp
+$XILINX/secureip/mti/temac_single_mti/temac_single_009.vp
+$XILINX/secureip/mti/temac_single_mti/temac_single_010.vp
